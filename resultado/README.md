@@ -483,7 +483,7 @@ data %>%
 
 Imagen de ejemplo del mapa
 
-![Mapa_18_19](../imagenes/mapa_pocos_18_19.png "Mapa_18_19")
+![Mapa_18_19](imagenes/mapa_pocos_18_19.png "Mapa_18_19")
 
 
 ## Mapa para los "pocos datos" de la campaña 19/20
@@ -511,7 +511,7 @@ data %>%
 
 Imagen de ejemplo del mapa
 
-![Mapa_19_20](../imagenes/mapa_pocos_19_20.png "Mapa_19_20")
+![Mapa_19_20](imagenes/mapa_pocos_19_20.png "Mapa_19_20")
 
 
 # Armando de **train** y **valid** 
@@ -812,9 +812,9 @@ print(array_fechas)
 ## Idea general de las ventanas de tiempo.
 Elegir las imágenes del satélite, para la ROI elegida, entre las fechas calculadas, para las 2 campañas. Y así, armar las colecciones con las imágenes correspondientes.
 
-![SOJA](../imagenes/bc_soja.jpeg "SOJA")
+![SOJA](imagenes/bc_soja.jpeg "SOJA")
 
-![MAIZ](../imagenes/bc_maiz.jpeg "MAIZ")
+![MAIZ](imagenes/bc_maiz.jpeg "MAIZ")
 
 
 ## LANDSAT (LANDSAT/LC08/C01/T1_SR)
@@ -1176,7 +1176,7 @@ print("cantidad_imagenes >>> >>> " + str(cantidad_imagenes))
 Obtenidos desde https://eos.com/landviewer , en la seccion "Combinaciones de bandas"
 
 ### Índices para L8
-| ![L8_I1](../imagenes/L8_indices_1.png "L8_I1") | ![L8_I2](../imagenes/L8_indices_2.png "L8_I2") |
+| ![L8_I1](imagenes/L8_indices_1.png "L8_I1") | ![L8_I2](imagenes/L8_indices_2.png "L8_I2") |
 
 
 ```python
@@ -1280,7 +1280,7 @@ def calcular_indice_L8(paramImg):
 
 
 ### Índices para S2
-| ![S2_I1](../imagenes/S2_indices_1.png "S2_I1") | ![S2_I2](../imagenes/S2_indices_2.png "S2_I2") |
+| ![S2_I1](imagenes/S2_indices_1.png "S2_I1") | ![S2_I2](imagenes/S2_indices_2.png "S2_I2") |
 
 
 ```python
