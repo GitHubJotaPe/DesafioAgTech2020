@@ -1,23 +1,3 @@
----
-title: "Informe Competencia AgTech GitHubJotaPe"
-author: "Juan Pablo FERRANDEZ"
-always_allow_html: yes
-output:
-  html_document: 
-    toc: yes
-    df_print: kable
-    keep_md: yes
-    fig_width: 6
-    fig_height: 4
-    fig_caption: yes
-  pdf_document: 
-    toc: yes
-    fig_height: 4
----
-
-
-
-
 # Resumen
 El presente informe intenta explicar los pasos realizados para generar el mismo archivo *.csv* de submit, que se subió el domingo 13/12/2020, con el que se obtuvo un puntaje público de **0,62262**.
 
