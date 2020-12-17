@@ -2291,7 +2291,7 @@ http://docs.h2o.ai/h2o/latest-stable/h2o-docs/variable-importance.html
 h2o.varimp_plot(model_rf)
 ```
 
-![](informe_GitHubJotaPe_files/figure-html/unnamed-chunk-81-1.png)<!-- -->
+![varimp_plot_rf](imagenes/varimp_plot_rf.png "h2o.varimp_plot(model_rf)")
 
 
 Cálculo del bacc para el dataset de validación
@@ -2378,7 +2378,7 @@ Plot de la influencia relativa de las variables incluidas en el modelo
 h2o.varimp_plot(model_xgb)
 ```
 
-![](informe_GitHubJotaPe_files/figure-html/unnamed-chunk-84-1.png)<!-- -->
+![varimp_plot_xgb](imagenes/varimp_plot_xgb.png "h2o.varimp_plot(model_xgb)")
 
 
 Cálculo del bacc para el dataset de validación
