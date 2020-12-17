@@ -1681,7 +1681,6 @@ list(ejemplo.keys())[-10:]
 ```
 ## ['v5_S2_SAVI_mean_60', 'v5_S2_SAVI_median_60', 'v5_S2_SAVI_min_60', 'v5_S2_SAVI_stdDev_60', 'v5_S2_SIPI_amp_60', 'v5_S2_SIPI_max_60', 'v5_S2_SIPI_mean_60', 'v5_S2_SIPI_median_60', 'v5_S2_SIPI_min_60', 'v5_S2_SIPI_stdDev_60']
 ```
-```
 
 
 # GENERACIÓN DE LOS DATASETS CON FEATURES
