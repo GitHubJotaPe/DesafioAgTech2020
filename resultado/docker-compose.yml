@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+
+  jp_gee:
+
+    build: 
+      context: .
+        
+    environment:
+      - PASSWORD=rstudio
+    
+    ports:
+    - 8787:8787
+    
+    volumes:
+      - ./src/:/home/rstudio/src/ #dir de codigo
+      - ./data/:/home/rstudio/data/ #dir de la data
+      - ./modelos/:/home/rstudio/modelos/ #dir para guardado de los modelos
+      - ./resultado/:/home/rstudio/resultado/ #dir donde se va a dejar el submit
+      - ./imagenes/:/home/rstudio/imagenes/ #dir de imagenes
+      - ./EEAuthentication.txt:/root/.config/earthengine/credentials # autenticacion para EE
+   
